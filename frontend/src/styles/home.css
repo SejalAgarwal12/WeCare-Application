@@ -1,0 +1,59 @@
+body{
+  background-color: rgb(220, 228, 234);
+}
+.main-content {
+  padding: 20px;
+}
+
+.main-content h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.card button {
+  background-color: rgb(32, 78, 118);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;        /* full width */
+  margin: 10px 0;     /* space between buttons */
+  display: block;
+}
+
+.coach-cards {
+background-color: rgb(57, 56, 56);
+color:white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.coach-cards:hover{
+    transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+.user-card {
+    background-color: rgb(57, 56, 56);
+color:white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.user-card:hover{
+    transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}

@@ -1,0 +1,74 @@
+/* src/styles/form.css */
+.page-wrapper {
+  min-height: 100vh;
+  padding-bottom: 80px; /* space for fixed footer */
+  box-sizing: border-box;
+}
+.form-container {
+  padding: 20px;
+  max-width: 400px;
+  margin: 40px auto;
+  background: #080808;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    overflow-y: auto;         /* allow scrolling inside if needed */
+  max-height: calc(100vh - 120px); /* prevent overflow beyond screen */
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+.form-container p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input,
+.form-container select {
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.form-container input:focus,
+.form-container select:focus {
+  border-color: #333;
+  outline: none;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.form-container button {
+  padding: 12px;
+  background-color: rgb(12, 161, 20);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  
+}
+
+.form-container button:hover {
+  background-color: #333;
+}
+.center-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

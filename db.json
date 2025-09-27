@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Maria",
+      "password": "maria12345",
+      "gender": "F",
+      "dob": "1999-06-08",
+      "email": "maria@abc.com",
+      "mobilenumber": 1234567890,
+      "pincode": 560100,
+      "city": "Banaglore",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    {
+      "id": "2",
+      "name": "Adarsh",
+      "password": "adarsh12345",
+      "gender": "M",
+      "dob": "1997-07-24",
+      "email": "adarsh@abc.com",
+      "mobilenumber": 1234567890,
+      "pincode": 12345,
+      "city": "London",
+      "state": "London",
+      "country": "UK"
+    },
+    {
+      "id": "7e7a",
+      "name": "Aastha",
+      "password": "aastha@12345",
+      "gender": "F",
+      "dob": "2001-08-03",
+      "email": "aastha@abc.com",
+      "mobilenumber": "1234567890",
+      "pincode": "470002",
+      "city": "Indore",
+      "state": "MP",
+      "country": "India"
+    },
+    {
+      "id": "532b",
+      "name": "Abhijeet",
+      "password": "abhijeet12345",
+      "gender": "M",
+      "dob": "2010-06-09",
+      "email": "abhjeet@abc.com",
+      "mobilenumber": "1234567789",
+      "pincode": "670002",
+      "city": "Indore",
+      "state": "MP",
+      "country": "India"
+    }
+  ],
+  "coaches": [
+    {
+      "id": "1",
+      "name": "Rose",
+      "password": "rose12345",
+      "gender": "F",
+      "dob": "1997-07-24",
+      "email": "rose@abc.com",
+      "mobilenumber": 1234567890,
+      "speciality": "Confidence Issues"
+    },
+    {
+      "id": "f701",
+      "name": "Alex",
+      "password": "Alex@12345",
+      "gender": "M",
+      "dob": "1989-01-18",
+      "mobilenumber": "1234567890",
+      "speciality": "Overthinking"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "appointmentDate": "2025-10-20",
+      "slot": "10 AM to 11 AM",
+      "userId": 1,
+      "coachId": 1
+    },
+    {
+      "id": "3",
+      "appointmentDate": "2025-10-20",
+      "slot": "8 AM to 10 AM",
+      "userId": 2,
+      "coachId": 2
+    },
+    {
+      "id": "2",
+      "appointmentDate": "2025-10-20",
+      "slot": "8 AM to 9 AM",
+      "userId": 1,
+      "coachId": 2
+    },
+    {
+      "id": "392b",
+      "appointmentDate": "2025-09-15",
+      "slot": "5 PM to 6PM",
+      "userId": "1",
+      "coachId": "1"
+    },
+    {
+      "id": "7068",
+      "appointmentDate": "2025-10-20",
+      "slot": "8 AM to 10 AM",
+      "userId": 2,
+      "coachId": 1
+    }
+  ]
+}
